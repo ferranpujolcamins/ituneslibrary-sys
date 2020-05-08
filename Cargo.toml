@@ -1,0 +1,17 @@
+[package]
+name = "ituneslibrary-sys"
+version = "0.1.0"
+authors = ["Ferran Pujol Camins <ferranpujolcamins@gmail.com>"]
+description = "Low level Rust bindings for iTunesLibrary, generated with rust-bindgen."
+license = "GPL-3.0"
+repository = "https://github.com/ferranpujolcamins/ituneslibrary-sys"
+readme = "README.md"
+categories = ["external-ffi-bindings", "os::macos-apis"]
+keywords = ["itunes", "music"]
+edition = "2018"
+
+[dependencies]
+objc = "0.2.7"
+
+[build-dependencies]
+bindgen = "0.53.2"
